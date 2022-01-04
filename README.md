@@ -1,5 +1,5 @@
 # ResNet
- Authors: Yana Shtyk, Olga Taran, André Csillaghy, Jonathan Donzallaz
+ Authors: Yana Shtyk, Olga Taran, Jonathan Donzallaz, André Csillaghy
  
 The work addresses the problem of prediction of solar flares. To research this problem a machine learning technique called recurrent neural network was used.
 We trained and tested our model on the SDOBenchmark dataset.  It is a time series dataset created by FHNW. 
