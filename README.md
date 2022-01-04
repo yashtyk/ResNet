@@ -32,7 +32,7 @@ python main.py train +experiment=<filename>.yaml
  python main.py test +experiment=<filename>.yaml
  ```
  
- #### Models aggregation by summing models outputs
+ #### Testing performance of the models aggregation by summing models outputs
  
  
 Create cofiguration file \<filename\>.yaml in the config/experiment folder with needed settings and paths to the models to be tested and then run:
@@ -41,7 +41,11 @@ Create cofiguration file \<filename\>.yaml in the config/experiment folder with 
  python main.py test_multi +experiment=<filename>.yaml
  ```
  
- #### Models aggregation by majority voting
+ #### Testing performance of the models aggregation by majority voting
+ 
+ ### Reproducibility of the results
+ 
+ In the 'models' folder pretrained weights of the models can be found. They can be used to reproduce the results.
  
  
  
