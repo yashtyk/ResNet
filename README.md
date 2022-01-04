@@ -44,8 +44,7 @@ Create cofiguration file \<filename\>.yaml in the config/experiment folder with 
  #### Testing performance of the models aggregation by majority voting
  
  ### Reproducibility of the results
- 
- In the 'models' folder pretrained weights of the models can be found. They can be used to reproduce the results.
+ Pretrained weights of the models can be downladed from [here](https://drive.google.com/drive/u/0/folders/1BVJRjiCydCIi-oLCZsBIOWrVNnzagmz2). They can be used to reproduce the results.
  
  
  
