@@ -1,0 +1,22 @@
+defaults:
+  - data: sdo-benchmark
+
+model:
+  backbone: simple-cnn
+  learning_rate: 5e-3
+
+trainer:
+  epochs: 20
+  patience: 12
+  batch_size: 128
+
+name: Baseline binary classification model
+training_type: train  # train, finetune, ssl
+tune_lr: false
+path: models/baseline_binary_sdobenchmark
+seed: 42
+tracking: false
+
+system:
+  gpus: 0
+  workers: 20
